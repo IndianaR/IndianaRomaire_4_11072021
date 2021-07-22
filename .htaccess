@@ -12,7 +12,7 @@ BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
 # CACHE NAVIGATEUR
 # BEGIN Cache-Control Headers
 <IfModule mod_headers.c>
- <FilesMatch "\.(ico|jpe?g|png|gif|swf|css|gz)$">
+ <FilesMatch "\.(ico|jpeg|png|gif|swf|css|gz)$">
  Header set Cache-Control "max-age=31536000, public"
  </FilesMatch>
  <FilesMatch "\.(js)$">
@@ -40,6 +40,6 @@ ExpiresByType application/pdf "access plus 1 year"
 ExpiresByType text/x-javascript "access plus 1 year"
 ExpiresByType application/x-shockwave-flash "access plus 1 year"
 ExpiresByType image/x-icon "access plus 1 year"
-ExpiresDefault "access plus 5 days"
+ExpiresDefault "access plus 30 days"
 </IfModule>
 # END Expires Headers
