@@ -679,7 +679,7 @@ a {
 }
 
 p {
-  font-size: 11px;
+  font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -774,15 +774,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #f3976c;
+  background-color: #9e6151;
 }
 
 .tc-white {
-  color: #f3976c !important;
+  color: #ffcd8e !important;
 }
 
 .btn-atomic-tangerine {
-  background: #f3976c;
+  background: #9e6151;
   color: #ffffff !important;
 }
 
@@ -800,7 +800,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-  color: #f3976c !important;
+  color: #ffcd8e !important;
 }
 
 .ltc-atomic-tangerine:hover {
