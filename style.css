@@ -517,7 +517,7 @@ button {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  opacity: 0;
+  opacity: 100;
   z-index: 500;
   transition: all 0.3s ease-in-out;
 }
@@ -744,6 +744,8 @@ h4 {
 .portfolio-thumb {
   margin-bottom: 24px;
   width: 320px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .portfolio-row {
@@ -784,6 +786,8 @@ h4 {
 .btn-atomic-tangerine {
   background: #9e6151;
   color: #ffffff !important;
+  width: 205px;
+  margin: auto;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1036,9 +1040,24 @@ h4 {
     padding-left: 0;
     padding-right: 0;
   }
+  .l-bloc .bloc-lg {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .cta-hero {
+    padding: 12px 28px 12px 28px;
+  }
+  .social {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 @media (max-width: 767px) {
+  .social {
+    display: flex;
+    justify-content: space-around;
+  }
   .bloc-mob-center-text {
     text-align: center;
   }
